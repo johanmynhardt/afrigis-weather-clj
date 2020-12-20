@@ -39,7 +39,7 @@
    :lightning/feed
 
    :alerts/feed
-   :alerts/history]) (namespace :foo)
+   :alerts/history])
 
 (defn service-url
   [{:service/keys [host base-path auth-params] service-ns :service/ns :as ctx}
